@@ -8,6 +8,8 @@
 Reference: https://taxacctgcenter.ph/tax-exempt-de-minimis-benefits-to-employees/
 6) Starting day for week number counting is every Monday.
 Reference: https://www.generalblue.com/2022-philippines-calendar?weekstart=monday
+7)Per sir kenneth's guidance, (re: it is essentially our group's liberty whether to use the basic salary as basis for gross pay or not for the employees
+under managerial positions and above) basic salary for non rank and file employees was not used for the gross salary computation.
 
 
 */

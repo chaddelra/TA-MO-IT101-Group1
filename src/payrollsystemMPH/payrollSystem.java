@@ -16,17 +16,17 @@ under managerial positions and above) basic salary for non rank and file employe
 
 package payrollsystemMPH;
 
-import java.io.BufferedReader;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.IOException;
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.util.Date;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Scanner;
-import java.util.TreeMap;
+import java.io.BufferedReader;           // Provides a convenient way to read text from a character-input stream
+import java.io.FileNotFoundException;    // Signals that an attempt to open the file denoted by a specified pathname has failed
+import java.io.FileReader;               // Reads text from character files in a simple way
+import java.io.IOException;              // Signals that an I/O exception of some sort has occurred
+import java.text.ParseException;         // Signals that an error has occurred during parsing
+import java.text.SimpleDateFormat;       // Allows the formatting (date to text) and parsing (text to date) of dates
+import java.util.Date;                   // Represents a specific instant in time, with millisecond precision
+import java.util.HashMap;                // Implements the Map interface, providing a key-value pair storage mechanism
+import java.util.Map;                    // Represents a mapping between a key and a value
+import java.util.Scanner;                // Allows easy reading of data from various input sources
+import java.util.TreeMap;                // Implements the Map interface using a tree for storage, orders keys in a sorted order
 
 //Define the main class for the payroll system
 public class payrollSystem {
@@ -64,10 +64,10 @@ public class payrollSystem {
 			public static void main(String[] args) throws IOException {
 
 	     // CSV file paths for employee details, attendance records, and hourly rates
-        String EmployeeDetails = "/Users/chadleyayco/eclipse-workspace/MPHpayrollsystem/src/MotorPH _Helena's Copy - Employee Details (rev)2.csv";
-        String AttendanceRecord = "/Users/chadleyayco/eclipse-workspace/MPHpayrollsystem/src/attendance record.csv";
-        String HourlyRateFile = "/Users/chadleyayco/eclipse-workspace/MPHpayrollsystem/src/Group 11 Official File - Hourly Rate.csv";
-        String AllowancesFile = "/Users/chadleyayco/eclipse-workspace/MPHpayrollsystem/src/Allowances & Subsidy.csv";
+        String EmployeeDetails = "src\\MotorPH _Helena's Copy - Employee Details (rev)2.csv";
+        String AttendanceRecord = "src\\attendance record.csv";
+        String HourlyRateFile = "src\\Group 11 Official File - Hourly Rate.csv";
+        String AllowancesFile = "src\\Allowances & Subsidy.csv";
     
 
      // Initialize employee ID outside the loop
